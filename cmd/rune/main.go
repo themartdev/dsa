@@ -7,12 +7,11 @@ import (
 )
 
 func main() {
-	var d rune = '9'
-	var i byte = byte(d)
-	asChar := rune(i)
-	fmt.Printf("%v", asChar)
+	// var d rune = '9'
+	// var i byte = byte(d)
+	// asChar := rune(i)
+	// fmt.Printf("%v", asChar)
 
-	return
 	a := "ééta"
 	b := "taéèa"
 	c := alg.SortedLetters(b)

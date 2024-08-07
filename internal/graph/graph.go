@@ -4,7 +4,7 @@ type AdjGraph struct {
 	adj []DoublyLinkedList[int]
 }
 
-func NewEmpty[T any](n int) *AdjGraph {
+func NewEmpty(n int) *AdjGraph {
 	g := &AdjGraph{
 		adj: make([]DoublyLinkedList[int], n),
 	}

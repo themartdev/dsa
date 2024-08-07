@@ -12,5 +12,4 @@ func main() {
 	g.AddEdge(1, 2)
 
 	g.AddEdge(4, 3)
-
 }

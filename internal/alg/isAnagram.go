@@ -1,6 +1,8 @@
 package alg
 
-import "sort"
+import (
+	"sort"
+)
 
 func SortedLetters(w string) string {
 	r := []rune(w)
