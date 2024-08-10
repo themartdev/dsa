@@ -1,18 +1,13 @@
 package main
 
-import "github.com/simon-martineau/dsa/lc/ds"
-
-func main() {
-}
-
-func hasPathSum(root *ds.TreeNode, targetSum int) bool {
+func hasPathSum(root *TreeNode, targetSum int) bool {
 	if root == nil {
 		return false
 	}
 	return hasPathSumRec(root, targetSum)
 }
 
-func hasPathSumRec(root *ds.TreeNode, targetSum int) bool {
+func hasPathSumRec(root *TreeNode, targetSum int) bool {
 	if root == nil {
 		return targetSum == 0
 	}

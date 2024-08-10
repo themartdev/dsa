@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 func isSameTree(p *TreeNode, q *TreeNode) bool {
 	if p == nil && q == nil {
 		return true

@@ -5,10 +5,6 @@ import (
 	"strings"
 )
 
-func main() {
-
-}
-
 func isPalindrome(s string) bool {
 	s = preprocess(s)
 	l := len(s)

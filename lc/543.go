@@ -1,19 +1,15 @@
 package main
 
 import (
-	"github.com/simon-martineau/dsa/lc/ds"
 	"math"
 )
 
-func main() {
-}
-
-func diameterOfBinaryTree(root *ds.TreeNode) int {
+func diameterOfBinaryTree(root *TreeNode) int {
 	_, total := diameterOfBinaryTreeRec(root)
 	return total
 }
 
-func diameterOfBinaryTreeRec(root *ds.TreeNode) (longestBranch, total int) {
+func diameterOfBinaryTreeRec(root *TreeNode) (longestBranch, total int) {
 	if root == nil {
 		return -1, -1
 	}

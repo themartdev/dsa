@@ -1,8 +1,5 @@
 package main
 
-func main() {
-}
-
 // m x n integer array grid
 // seems like it could be solved through 2d DP,
 // since the result of a m-1 x n-1 matrix directly affect the result from m x n

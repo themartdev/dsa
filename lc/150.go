@@ -4,10 +4,6 @@ import (
 	"strconv"
 )
 
-func main() {
-
-}
-
 func evalRPN(tokens []string) int {
 	stack := make([]int, 0)
 	for _, token := range tokens {

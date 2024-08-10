@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 // To review, should use stack approach
 func dailyTemperatures(temperatures []int) []int {
 	offsets := make([]int, len(temperatures))

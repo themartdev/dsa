@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 func reverseList(head *ListNode) *ListNode {
 	oldHead := head
 	var newHead *ListNode

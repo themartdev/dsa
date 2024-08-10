@@ -1,14 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
-
-func main() {
-	res := generateParenthesis(1)
-	fmt.Printf("%v", res)
-}
 
 func generateParenthesis(n int) []string {
 	stack := make([]string, 0)
