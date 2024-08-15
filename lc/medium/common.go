@@ -10,3 +10,9 @@ type Node struct {
 	Next   *Node
 	Random *Node
 }
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
